@@ -1,0 +1,5 @@
+# Backend lint validation
+cd backend || exit 1
+uv run ruff check .
+uv run ruff format --check .
+uv run mypy .

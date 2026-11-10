@@ -1,0 +1,18 @@
+{
+  "name": "oficina-app",
+  "private": true,
+  "description": "OficinaApp repository tooling (git hooks and commit rules)",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "husky": "^9.1.7"
+  }
+}
