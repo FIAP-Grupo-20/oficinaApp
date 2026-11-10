@@ -6,7 +6,6 @@ Python 3.14 + FastAPI, managed with [uv](https://docs.astral.sh/uv/).
 
 ```bash
 uv sync
-uv run pre-commit install   # lint on commit + Conventional Commits check
 ```
 
 ## Commands
